@@ -1,8 +1,8 @@
-# Fake Commit Graphs
+# Hack Github Contribution Graphs using Python
 
-### This project is only to show that github contribution graph don't really matter. It's just the work you put up what matters.
+(Educational Purpose only)
 
-Basically creates a fake contribution graph on your github overview page.
+Basically creates a fake contribution(Commit, Issues, Pull requsts) graph on your github overview page.
 
 
 Usage:
@@ -13,13 +13,17 @@ Usage:
 ```diff
 Running the script will directly edit your contribution graph, you have to delete the repo in your github account to reverse contribution graph changes.
 ```
-2. Run the python script using the command:
+2. Install Module
+```
+pip install requests
+```
+3. Run the python script using the command:
 
 ```
 python generate_graph.py
 ```
 
-3. Let it do the job.
+4. Let it do the job.
 
 
   Before:<br>
@@ -28,4 +32,3 @@ python generate_graph.py
   After:<br>
   ![image](https://user-images.githubusercontent.com/76813100/234387443-8ddea95c-44cd-4d82-bdaa-045947d12656.png)
 
-## <b>This project is only a demonstration of ridiculously easy it is to create a fake github contribution graph and that contribution graph doesn't matter. Not intended for functional usage. <b>
