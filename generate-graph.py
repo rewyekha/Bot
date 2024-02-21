@@ -3,7 +3,7 @@ import requests
 from random import randint
 
 # GitHub API authentication token
-TOKEN = "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"
+TOKEN = "Your_Token"
 
 # Base URL for GitHub API
 BASE_URL = "https://api.github.com"
